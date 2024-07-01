@@ -40,7 +40,7 @@ function Project({ image, description, name, github, linkDemo, linkDownload, tec
                             <picture className={`block`}>
                                 <img src='/assets/images/icons/download-svgrepo-com.svg' alt="download" />
                             </picture>
-                            <p>GitHub</p>
+                            <p title='download for android'>Download</p>
                         </Link> : <></>}
                         <Link href={linkDemo} target='_blank'>
                             <picture className={`block`}>
