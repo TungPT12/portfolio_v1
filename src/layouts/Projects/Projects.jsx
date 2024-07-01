@@ -8,7 +8,7 @@ function Projects() {
         {
             image: "/assets/images/ecommecre.png",
             name: "Ecommerce Website",
-            description: "A good choice for you, your life and your phone",
+            description: "A good choice for you, your life and your phone.",
             github: "https://github.com/TungPT12/ecommerce_client.git",
             linkDemo: "https://tung-store.netlify.app/",
             tech: [
@@ -32,7 +32,7 @@ function Projects() {
         {
             image: "/assets/images/booking_website.png",
             name: "Booking Website",
-            description: "We bring for you a place to enjoy your trip with your family or you friend",
+            description: "We bring for you a place to enjoy your trip with your family or you friend.",
             github: "https://github.com/TungPT12/booking_client.git",
             linkDemo: "https://booking-clients.netlify.app/",
             tech: [
@@ -56,6 +56,7 @@ function Projects() {
         {
             image: "/assets/images/movie_trailer.png",
             name: "Movie Trailer",
+            description: "Website for you search a movie trailer.",
             github: "https://github.com/TungPT12/movie_client.git",
             linkDemo: "https://movie-trailer-client.netlify.app/",
             tech: [
@@ -74,7 +75,7 @@ function Projects() {
         {
             image: "/assets/images/manga.png",
             name: "Manga for life",
-            description: "Bring for you a new world in manga and a lot new adventures for",
+            description: "Bring for you a new world in manga and a lot new adventures for.",
             github: "https://github.com/TungPT12/manga_webstie.git",
             linkDemo: "https://mangaforlive.netlify.app/",
             tech: [
@@ -88,9 +89,9 @@ function Projects() {
         {
             image: "/assets/images/manga_mobile.svg",
             name: "Manga for life mobile",
-            description: "A new world in manga and a lot new adventures",
+            description: "A new world in manga and a lot new adventures.",
             github: "https://github.com/TungPT12/manga_webstie.git",
-            linkDownload: "https://drive.google.com/file/d/15_6ZgMQcHe3JS2-GQlqMzGRdaFQatHvy/view?usp=sharing",
+            linkDownload: "https://drive.google.com/file/d/15_6ZgMQcHe3JS2-GQlqMzGRdaFQatHvy/view",
             linkDemo: "https://drive.google.com/file/d/1cKqOgfrOj5H6zxRqHW-aQKUiUrZTAOUn/view?usp=sharing",
             tech: [
                 {
