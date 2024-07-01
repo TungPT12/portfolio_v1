@@ -21,9 +21,9 @@ const Banner = () => {
           </p>
           <CVButton className={`mt-6 p-6`} />
         </div>
-        <div className={`${styles["right_banner"]}`}>
-          <img src="/assets/images/developer_banner.svg" />
-        </div>
+        <picture className={`${styles["right_banner"]} block`}>
+          <img src="/assets/images/developer_banner.svg" alt="developer" />
+        </picture>
       </div>
     </div>
   );

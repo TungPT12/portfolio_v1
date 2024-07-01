@@ -6,7 +6,7 @@ function TechnologyCard({ className }) {
     return (
         <Link href={"/"} className={`${styles['technology_card']} ${className}`}>
             <picture className={`block ${styles['wrapper_icon']}`}>
-                <img src='/assets/images/icons/reactjs.svg' />
+                <img src='/assets/images/icons/reactjs.svg' alt='reactjs' />
             </picture>
             <p>ReactJS</p>
         </Link>

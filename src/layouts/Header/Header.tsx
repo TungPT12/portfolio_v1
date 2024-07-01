@@ -8,7 +8,7 @@ const Header = () => {
     <div className={`${styles["headers"]}`}>
       <div className={`${styles["wrapper_header"]}`}>
         <picture className={`block ${styles["wrapper_logo"]}`}>
-          <img src="/assets/logo/thantung2_white.svg" />
+          <img src="/assets/logo/thantung2_white.svg" alt="logo" />
         </picture>
         <div className={`${styles["nav_link"]}`}>
           <div className={`${styles["link_wrapper"]}`}>

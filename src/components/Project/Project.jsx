@@ -32,13 +32,13 @@ function Project({ image, name, github, linkDemo, technologies }) {
                     <div className={`${styles['link_project']}`}>
                         <Link href={github} target='_blank'>
                             <picture className={`block`}>
-                                <img src='/assets/images/icons/github_white.svg' />
+                                <img src='/assets/images/icons/github_white.svg' alt="github" />
                             </picture>
                             <p>GitHub</p>
                         </Link>
                         <Link href={linkDemo} target='_blank'>
                             <picture className={`block`}>
-                                <img src='/assets/images/icons/eye_white.svg' />
+                                <img src='/assets/images/icons/eye_white.svg' alt="eye" />
                             </picture>
                             <p>Demo</p>
                         </Link>

@@ -5,7 +5,7 @@ const EducationCard = () => {
     return (
         <div className={`${styles['education_card']}`}>
             <picture className={`block ${styles['image_school']}`}>
-                <img src='/assets/images/education/fpt_university.jpeg' />
+                <img src='/assets/images/education/fpt_university.jpeg' alt={"fpt"} />
             </picture>
             <div className={`${styles['education_info']}`}>
                 <h3 className={`${styles['degree_name']} color_second_text`}>Bachelor Of Software Engineering</h3>
