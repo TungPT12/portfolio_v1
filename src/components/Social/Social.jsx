@@ -7,10 +7,14 @@ function Social() {
         <div className={`${styles['social']}`}>
             <div className={`${styles['social_wrapper']}`}>
                 <Link href="https://github.com/TungPT12" target='_blank' className={`${styles['link_social']}`}>
-                    <img src='./assets/images/icons/github_white.svg' />
+                    <picture>
+                        <img src='./assets/images/icons/github_white.svg' />
+                    </picture>
                 </Link>
                 <Link href="https://www.linkedin.com/in/tungpt12/" target='_blank' className={`${styles['link_social']}`}>
-                    <img src='./assets/images/icons/linkedin.svg' />
+                    <picture>
+                        <img src='./assets/images/icons/linkedin.svg' />
+                    </picture>
                 </Link>
             </div>
         </div>
