@@ -20,7 +20,7 @@
         .project_info {
             bottom: 0px;
             background: #fff;
-            gap: 30px;
+            gap: 14px;
             display: flex;
             flex-direction: column;
             transition: max-height 0.8s linear;
@@ -98,9 +98,13 @@
                         font-weight: 500;
                     }
 
-                    img {
+                    picture {
                         height: 100%;
-                        width: auto;
+
+                        img {
+                            height: 100%;
+                            width: auto;
+                        }
                     }
                 }
             }

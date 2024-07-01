@@ -8,6 +8,7 @@ function Projects() {
         {
             image: "/assets/images/ecommecre.png",
             name: "Ecommerce Website",
+            description: "A good choice for you, your life and your phone",
             github: "https://github.com/TungPT12/ecommerce_client.git",
             linkDemo: "https://tung-store.netlify.app/",
             tech: [
@@ -31,6 +32,7 @@ function Projects() {
         {
             image: "/assets/images/booking_website.png",
             name: "Booking Website",
+            description: "We bring for you a place to enjoy your trip with your family or you friend",
             github: "https://github.com/TungPT12/booking_client.git",
             linkDemo: "https://booking-clients.netlify.app/",
             tech: [
@@ -72,6 +74,7 @@ function Projects() {
         {
             image: "/assets/images/manga.png",
             name: "Manga for life",
+            description: "Bring for you a new world in manga and a lot new adventures",
             github: "https://github.com/TungPT12/manga_webstie.git",
             linkDemo: "https://mangaforlive.netlify.app/",
             tech: [
@@ -90,6 +93,7 @@ function Projects() {
             return <Project
                 key={project.name}
                 image={project.image}
+                description={project.description}
                 name={project.name}
                 github={project.github}
                 linkDemo={project.linkDemo}

@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Project.module.scss'
 import Link from 'next/link';
 
-function Project({ image, name, github, linkDemo, technologies }) {
+function Project({ image, description, name, github, linkDemo, technologies }) {
 
     const renderTechnologies = (technologies) => {
         return technologies.map((technology) => {
@@ -19,16 +19,16 @@ function Project({ image, name, github, linkDemo, technologies }) {
         <div className={`${styles['project']}`}>
             <div className={`${styles['project_wrapper']} relative`}>
                 <picture className={`block ${styles['background_project']}`}>
-                    <img src={image} />
+                    <img src={image} alt={name} />
                 </picture>
                 <div className={`absolute ${styles['project_info']} w-full`}>
                     <h4 className={`${styles['title']}`}>{name}</h4>
-                    {/* <div className={`${styles['description']}`}>
-                        Full-Stack Instagram Clone Built Using MERN Stack And Realtime Chat With The Help Of Socket.IO
-                    </div> */}
-                    <div className={`${styles['technologies']}`}>
-                        {renderTechnologies(technologies)}
+                    <div className={`${styles['description']}`}>
+                        {description}
                     </div>
+                    {/* <div className={`${styles['technologies']}`}>
+                        {renderTechnologies(technologies)}
+                    </div> */}
                     <div className={`${styles['link_project']}`}>
                         <Link href={github} target='_blank'>
                             <picture className={`block`}>

@@ -11,15 +11,15 @@ const EducationCard = () => {
                 <h3 className={`${styles['degree_name']} color_second_text`}>Bachelor Of Software Engineering</h3>
                 <div className={`${styles['degree_info']}`}>
                     <div className={`${styles['row_info']} flex`}>
-                        <span className={`${styles['title']} color_text`}>School's name: </span>
+                        <span className={`${styles['title']} color_text`}>School's name &#58; </span>
                         <p className={`${styles['description']} color_text`}>FPT University Ho Chi Minh</p>
                     </div>
                     <div className={`${styles['row_info']} flex`}>
-                        <span className={`${styles['title']} color_text`}>GPA: </span>
+                        <span className={`${styles['title']} color_text`}>GPA &#58; </span>
                         <p className={`${styles['description']} color_text`}>6.7 / 10</p>
                     </div>
                     <div className={`${styles['row_info']} flex`}>
-                        <span className={`${styles['title']} color_text`}>Time: </span>
+                        <span className={`${styles['title']} color_text`}>Time &#58;</span>
                         <p className={`${styles['description']} color_text`}>2018/09 - 2023/04</p>
                     </div>
                 </div>
