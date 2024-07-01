@@ -6,7 +6,7 @@ function Certificate({ name, linkCertificate, image }) {
     return (
         <div className={`${styles['certificate']}`}>
             <picture className={`${styles['image_certificate']} block`}>
-                <img src={image} alt={name} />
+                <img src={image} alt={name} className={`w-full`} />
             </picture>
             <div className={`${styles['wrapper_info']}`}>
                 <Link
