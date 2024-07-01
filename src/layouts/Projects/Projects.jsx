@@ -72,7 +72,7 @@ function Projects() {
             ]
         },
         {
-            image: "/assets/images/manga_mobile.png",
+            image: "/assets/images/manga.png",
             name: "Manga for life",
             description: "Bring for you a new world in manga and a lot new adventures for",
             github: "https://github.com/TungPT12/manga_webstie.git",
@@ -86,7 +86,7 @@ function Projects() {
             ]
         },
         {
-            image: "/assets/images/manga_mobile.png",
+            image: "/assets/images/manga_mobile.svg",
             name: "Manga for life mobile",
             description: "A new world in manga and a lot new adventures",
             github: "https://github.com/TungPT12/manga_webstie.git",
