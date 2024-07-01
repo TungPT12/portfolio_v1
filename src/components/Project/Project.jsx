@@ -4,16 +4,16 @@ import Link from 'next/link';
 
 function Project({ image, description, name, github, linkDemo, technologies }) {
 
-    const renderTechnologies = (technologies) => {
-        return technologies.map((technology) => {
-            return <Link key={technology.name} href={technology.linkTech} target='_blank' className={`${styles['technology']}`}>
-                <picture className={`block`}>
-                    <img src={technology.imageTech} />
-                </picture>
-                <p>{technology.name}</p>
-            </Link>
-        })
-    }
+    // const renderTechnologies = (technologies) => {
+    //     return technologies.map((technology) => {
+    //         return <Link key={technology.name} href={technology.linkTech} target='_blank' className={`${styles['technology']}`}>
+    //             <picture className={`block`}>
+    //                 <img src={technology.imageTech} alt=''/>
+    //             </picture>
+    //             <p>{technology.name}</p>
+    //         </Link>
+    //     })
+    // }
 
     return (
         <div className={`${styles['project']}`}>

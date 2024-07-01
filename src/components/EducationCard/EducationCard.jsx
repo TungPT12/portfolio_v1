@@ -11,7 +11,7 @@ const EducationCard = () => {
                 <h3 className={`${styles['degree_name']} color_second_text`}>Bachelor Of Software Engineering</h3>
                 <div className={`${styles['degree_info']}`}>
                     <div className={`${styles['row_info']} flex`}>
-                        <span className={`${styles['title']} color_text`}>School's name &#58; </span>
+                        <span className={`${styles['title']} color_text`}>School&#39;s name &#58; </span>
                         <p className={`${styles['description']} color_text`}>FPT University Ho Chi Minh</p>
                     </div>
                     <div className={`${styles['row_info']} flex`}>
