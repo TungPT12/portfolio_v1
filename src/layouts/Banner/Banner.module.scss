@@ -1,0 +1,63 @@
+.banner {
+    .wrapper_banner {
+        width: 1260px;
+        margin: auto;
+        padding-bottom: 4rem;
+
+        .left_banner {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            .title {
+                display: flex;
+                flex-direction: column;
+                gap: 4px;
+
+                .text_hello {
+                    font-size: 32px;
+                    line-height: 40px;
+                    word-spacing: -4px;
+                }
+
+                .text_introduce {
+                    font-size: 40px;
+                    display: flex;
+                    align-items: end;
+                    line-height: 50px;
+                    gap: 12px;
+
+                    p {
+                        &:first-child {
+                            line-height: 40px;
+                            font-size: 32px;
+                            word-spacing: -4px;
+                        }
+                    }
+
+                    .text_name {
+                        color: #FFD700;
+                        font-size: 45px;
+                        height: fit-content;
+                        display: flex;
+                        align-items: end;
+                        word-spacing: -12px;
+                    }
+                }
+            }
+
+            .description {
+                font-size: 20px;
+                color: #acacac;
+                margin-top: 16px;
+            }
+
+        }
+
+        .right_banner {
+            flex: 1;
+        }
+
+    }
+}

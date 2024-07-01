@@ -1,0 +1,111 @@
+.project {
+    box-shadow: 0px 0px 8px #6d6d6d;
+    border-radius: 4px;
+    overflow: hidden;
+
+    .project_wrapper {
+        height: 100%;
+
+
+        padding-bottom: 44px;
+
+        .background_project {
+            height: 100%;
+
+            img {
+                height: 100%;
+            }
+        }
+
+        .project_info {
+            bottom: 0px;
+            background: #fff;
+            gap: 30px;
+            display: flex;
+            flex-direction: column;
+            transition: max-height 0.8s linear;
+            max-height: calc(0px + 44px);
+
+            &:hover {
+                max-height: 500px;
+            }
+
+            .title {
+                background-color: #FFD700;
+                font-weight: 600;
+                padding: 10px 10px;
+                text-align: center;
+                text-transform: capitalize;
+            }
+
+            .description {
+                padding: 0px 20px;
+                font-size: 16px;
+                // color: #fff;
+            }
+
+            .technologies {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 20px;
+
+                .technology {
+                    background-color: #707070;
+                    padding: 4px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 4px;
+                    border-radius: 4px;
+
+                    p {
+                        color: #fff;
+                        font-weight: 500;
+                        font-size: 14px;
+                    }
+
+                    img {
+                        height: 24px;
+                    }
+                }
+            }
+
+            .link_project {
+                padding: 0px 20px 16px 20px;
+                display: flex;
+                justify-content: space-between;
+
+                a {
+                    background-color: #4d4d4d;
+                    height: 40px;
+                    padding: 8px;
+                    gap: 4px;
+                    border-radius: 4px;
+                    display: flex;
+                    border-radius: 50px;
+                    align-items: center;
+                    justify-content: center;
+                    transition: all 0.5s ease;
+
+                    &:hover {
+                        box-shadow: 0px 0px 10px #34353a;
+                        transform: translateY(-4px);
+                    }
+
+                    p {
+                        color: #fff;
+                        font-weight: 500;
+                    }
+
+                    img {
+                        height: 100%;
+                        width: auto;
+                    }
+                }
+            }
+        }
+
+
+    }
+}

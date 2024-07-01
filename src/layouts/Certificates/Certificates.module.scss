@@ -1,0 +1,18 @@
+.certificates {
+    .certificates_wrapper {
+        width: 1280px;
+        margin: auto;
+        padding-bottom: 4rem;
+
+        .title {
+            font-size: 40px;
+        }
+
+        .certificates_list {
+            gap: 24px;
+            padding: 20px 50px 50px 50px;
+            display: grid;
+            grid-template-columns: repeat(3, 32%);
+        }
+    }
+}

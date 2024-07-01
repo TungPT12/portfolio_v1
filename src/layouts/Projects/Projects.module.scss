@@ -1,0 +1,19 @@
+.projects {
+
+    .projects_wrapper {
+        width: 1280px;
+        margin: auto;
+        padding-bottom: 4rem;
+
+        .title {
+            font-size: 40px;
+        }
+
+        .list_project {
+            gap: 12px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            padding: 20px 50px 50px 50px;
+        }
+    }
+}

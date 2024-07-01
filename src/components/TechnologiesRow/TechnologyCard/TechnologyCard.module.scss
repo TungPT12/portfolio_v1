@@ -1,0 +1,21 @@
+.technology_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 177px;
+    height: 177px;
+    background: #3d3e42;
+    padding: 20px;
+    border-radius: 12px;
+    cursor: pointer;
+
+    .wrapper_icon {
+        height: 80px;
+
+        img {
+            height: 100%;
+            width: auto;
+        }
+    }
+}

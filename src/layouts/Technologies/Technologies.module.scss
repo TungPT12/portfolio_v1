@@ -1,0 +1,18 @@
+.technologies {
+    .technologies_wrapper {
+        width: 1280px;
+        margin: auto;
+        padding-bottom: 4rem;
+
+        .title {
+            font-size: 40px;
+        }
+
+        .tech {
+            padding: 20px 50px 50px 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+    }
+}

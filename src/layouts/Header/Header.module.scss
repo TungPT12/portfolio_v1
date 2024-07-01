@@ -1,0 +1,35 @@
+.headers {
+    height: 60px;
+
+    .wrapper_header {
+        display: flex;
+        justify-content: space-between;
+        width: 1280px;
+        padding: 10px 10px;
+        margin: auto;
+        height: 100%;
+
+        .wrapper_logo {
+            height: 100%;
+            display: block;
+
+            img {
+                height: 100%;
+                width: auto;
+            }
+        }
+
+        .nav_link {
+            display: flex;
+            gap: 10px;
+            height: 100%;
+
+            .link_wrapper {
+
+                a {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
