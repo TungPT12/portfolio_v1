@@ -72,11 +72,26 @@ function Projects() {
             ]
         },
         {
-            image: "/assets/images/manga.png",
+            image: "/assets/images/manga_mobile.png",
             name: "Manga for life",
-            description: "Bring for you a new world in manga and a lot new adventures",
+            description: "Bring for you a new world in manga and a lot new adventures for",
             github: "https://github.com/TungPT12/manga_webstie.git",
             linkDemo: "https://mangaforlive.netlify.app/",
+            tech: [
+                {
+                    name: "ReactJS",
+                    imageTech: "/assets/images/icons/reactjs.svg",
+                    linkTech: "https://react.dev/"
+                },
+            ]
+        },
+        {
+            image: "/assets/images/manga_mobile.png",
+            name: "Manga for life mobile",
+            description: "A new world in manga and a lot new adventures",
+            github: "https://github.com/TungPT12/manga_webstie.git",
+            linkDownload: "https://drive.google.com/file/d/15_6ZgMQcHe3JS2-GQlqMzGRdaFQatHvy/view?usp=sharing",
+            linkDemo: "https://drive.google.com/file/d/1cKqOgfrOj5H6zxRqHW-aQKUiUrZTAOUn/view?usp=sharing",
             tech: [
                 {
                     name: "ReactJS",
@@ -96,6 +111,7 @@ function Projects() {
                 description={project.description}
                 name={project.name}
                 github={project.github}
+                linkDownload={project.linkDownload}
                 linkDemo={project.linkDemo}
                 technologies={project.tech}
             />

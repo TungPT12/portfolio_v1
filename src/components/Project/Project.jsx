@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Project.module.scss'
 import Link from 'next/link';
 
-function Project({ image, description, name, github, linkDemo, technologies }) {
+function Project({ image, description, name, github, linkDemo, linkDownload, technologies }) {
 
     // const renderTechnologies = (technologies) => {
     //     return technologies.map((technology) => {
@@ -36,6 +36,12 @@ function Project({ image, description, name, github, linkDemo, technologies }) {
                             </picture>
                             <p>GitHub</p>
                         </Link>
+                        {linkDownload ? <Link href={github} target='_blank'>
+                            <picture className={`block`}>
+                                <img src='/assets/images/icons/download-svgrepo-com.svg' alt="download" />
+                            </picture>
+                            <p>GitHub</p>
+                        </Link> : <></>}
                         <Link href={linkDemo} target='_blank'>
                             <picture className={`block`}>
                                 <img src='/assets/images/icons/eye_white.svg' alt="eye" />
