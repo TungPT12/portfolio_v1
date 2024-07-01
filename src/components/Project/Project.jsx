@@ -7,7 +7,9 @@ function Project({ image, name, github, linkDemo, technologies }) {
     const renderTechnologies = (technologies) => {
         return technologies.map((technology) => {
             return <Link key={technology.name} href={technology.linkTech} target='_blank' className={`${styles['technology']}`}>
-                <img src={technology.imageTech} />
+                <picture className={`block`}>
+                    <img src={technology.imageTech} />
+                </picture>
                 <p>{technology.name}</p>
             </Link>
         })
@@ -29,11 +31,15 @@ function Project({ image, name, github, linkDemo, technologies }) {
                     </div>
                     <div className={`${styles['link_project']}`}>
                         <Link href={github} target='_blank'>
-                            <img src='/assets/images/icons/github_white.svg' />
+                            <picture className={`block`}>
+                                <img src='/assets/images/icons/github_white.svg' />
+                            </picture>
                             <p>GitHub</p>
                         </Link>
                         <Link href={linkDemo} target='_blank'>
-                            <img src='/assets/images/icons/eye_white.svg' />
+                            <picture className={`block`}>
+                                <img src='/assets/images/icons/eye_white.svg' />
+                            </picture>
                             <p>Demo</p>
                         </Link>
                     </div>
